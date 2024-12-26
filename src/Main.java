@@ -20,6 +20,13 @@ public class Main {
         sc.close();
         System.out.println(students);
 
+        students.remove(1);
+
+        System.out.println(students);
+
+        students.add("Vadim");
+
+        System.out.println(students);
 
     }
 }
